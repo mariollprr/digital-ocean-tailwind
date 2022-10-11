@@ -1,1 +1,1 @@
-# DigitalOcean Tailwind Practice
+# DigitalOcean | Tailwind | Practice
