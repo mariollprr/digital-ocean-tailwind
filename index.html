@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="https://www.digitalocean.com/_next/static/media/do-logo.d3eb8550.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="https://www.digitalocean.com/_next/static/media/do-logo.d3eb8550.svg"
+        type="image/x-icon">
     <link rel="stylesheet" href="./css/tailwind.css">
     <title>DigitalOcean - The developer cloud</title>
 </head>
 
 <body>
-    <!-- Blue strap -->
+    <!-- BlLUE STRAP -->
     <div class="bg-do-blue-dark text-gray-200 py-2 text-sm">
         <div class="container flex justify-between">
             <div class="flex items-center">
@@ -38,12 +39,13 @@
         </div>
     </div>
 
-    <!-- Navbar -->
-    <div class="shadow-md">
+    <!-- NAVBAR -->
+    <div class="shadow-md relative z-10">
         <div class="container flex justify-between items-center mx-auto py-5">
             <div class="flex items-center gap-6 font-medium">
                 <a href="/">
-                    <img src="https://www.digitalocean.com/_next/static/media/logo.87a8f3b8.svg" alt="DigitalOcean logo">
+                    <img src="https://www.digitalocean.com/_next/static/media/logo.87a8f3b8.svg"
+                        alt="DigitalOcean logo">
                 </a>
 
                 <div class="flex items-center gap-2">
@@ -54,7 +56,8 @@
                     </svg>
                 </div>
 
-                <div class="flex items-center gap-2"> <a href="">Solutions</a>
+                <div class="flex items-center gap-2">
+                    <a href="">Solutions</a>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" class="w-4 h-4 text-gray-400">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
@@ -62,6 +65,7 @@
                 </div>
 
                 <a href="">Marketplace</a>
+
                 <div class="flex items-center gap-2">
                     <a href="">Community</a>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -76,58 +80,233 @@
             <div>
                 <a href="" class="px-5 py-3 rounded-lg font-medium hover:bg-gray-200">Log in</a>
                 <a href=""
-                    class="px-5 py-3 rounded-lg bg-do-blue-light hover:bg-do-blue-medium text-white font-semibold">Sign up</a>
+                    class="px-5 py-3 rounded-lg bg-do-blue-light hover:bg-do-blue-medium text-white font-semibold">Sign
+                    up</a>
             </div>
 
         </div>
     </div>
 
-    <div class=" pt-32">
-        <div class="container flex">
+    <div class="pt-32 pb-48 relative z-0" style="
+        background: #f9fafe no-repeat center url(https://www.digitalocean.com/static/hero-bg-animation-ef666767f909d3b76122f0279a8bf16d.svg);
+        background-size: cover;
+    ">
+        <div class="flex items-center container mx-auto">
             <div class="w-1/2">
-
-                <!-- Main -->
-                <h1 class="text-6xl font-bold">
-                    Simpler cloud.
-                    Happier devs. <br>
-                    Better results.
+                <h1 class="text-6xl font-bold tracking-tighter">
+                    The cloud is complex.
+                    We make it simple.
                 </h1>
-                <p class="mt-5 text-xl font-medium text-gray-600 tracking-tighter">
-                    Businesses grow faster when developers can build on the simple, affordable cloud they love.
-                    DigitalOcean has the cloud computing services you need, with predictable pricing, robust
-                    documentation, and scalability to support your growth at any stage.
+                <p class="mt-5 text-2xl font-medium text-gray-500 tracking-tighter">
+                    The cloud computing services you need, with the predictable pricing, developer-friendly features,
+                    and scalability you’ll
+                    love.
                 </p>
             </div>
-
-            <!-- Form -->
             <div class="w-1/2">
-                <div class=" mb-4 font-medium">Welcome to DigitalOcean. Sign up to get started!</div>
+                <div class="mb-4 font-medium">Welcome to DigitalOcean. Sign up to get started!</div>
                 <form action="">
                     <div class="flex flex-col gap-y-5 w-4/5">
-                        <input class=" px-5 py-4 rounded-lg border border-gray-400 shadow-input hover:shadow-input-focus focus:shadpw-input-focus" type="text" placeholder="First name">
-                        <input class=" px-5 py-4 rounded-lg border border-gray-400 shadow-input hover:shadow-input-focus focus:shadpw-input-focus" type="email" placeholder="Email">
-                        <input class=" px-5 py-4 rounded-lg border border-gray-400 shadow-input hover:shadow-input-focus focus:shadpw-input-focus" type="password" placeholder="Password">
+                        <input
+                            class="px-5 py-4 rounded-lg border border-gray-400 focus:border-gray-600 shadow-input hover:shadow-input-focus focus:shadow-input-focus outline-none"
+                            type="text" placeholder="First name">
+                        <input
+                            class="px-5 py-4 rounded-lg border border-gray-400 focus:border-gray-600 shadow-input hover:shadow-input-focus focus:shadow-input-focus outline-none"
+                            type="text" placeholder="Email">
+                        <input
+                            class="px-5 py-4 rounded-lg border border-gray-400 focus:border-gray-600 shadow-input hover:shadow-input-focus focus:shadow-input-focus outline-none"
+                            type="password" placeholder="Password">
+                        <div class="flex justify-between gap-x-4">
+                            <button
+                                class="w-3/4 px-5 py-3 rounded-lg bg-do-blue-light hover:bg-do-blue-medium active:bg-do-blue-mediumdark active:text-sky-400 text-white font-bold ">Deploy
+                                in seconds</button>
+                            <button class="px-3 py-3 bg-gray-200 hover:bg-gray-300 rounded-lg">
+                                <img data-src="https://www-static.cdn.prismic.io/www-static/7b66f955-63dd-41f5-a403-e6727b24d4ea_google-logo.svg"
+                                    src="https://www-static.cdn.prismic.io/www-static/7b66f955-63dd-41f5-a403-e6727b24d4ea_google-logo.svg"
+                                    alt="google_icon" class="null blur-up css-1pq2esu ls-is-cached lazyloaded">
+                            </button>
+                            <button class="px-3 py-3 bg-gray-200 hover:bg-gray-300 rounded-lg">
+                                <img data-src="https://www-static.cdn.prismic.io/www-static/0a3e37e0-1706-41d5-98d1-854585205a5e_github-logo.svg"
+                                    src="https://www-static.cdn.prismic.io/www-static/0a3e37e0-1706-41d5-98d1-854585205a5e_github-logo.svg"
+                                    alt="github_icon" class="null blur-up css-1pq2esu ls-is-cached lazyloaded">
+                            </button>
+                        </div>
+                        <div class="text-gray-500">
+                            By signing up you agree to the <a href="#" class="underline font-light">Terms of Service</a>
+                        </div>
+                    </div>
                 </form>
-                <div class="flex gap-x-4 justify-between">
-                    <button
-                        class=" w-3/4 px-5 py-3 rounded-lg bg-do-blue-light hover:bg-do-blue-medium text-white font-semibold">Deploy
-                        in seconds</button>
-                    <button class="px-3 py-3 bg-gray-200 rounded-lg hover:bg-gray-300">
-                        <img data-src="https://doimages.nyc3.digitaloceanspaces.com/google-logo.svg"
-                            src="https://doimages.nyc3.digitaloceanspaces.com/google-logo.svg" alt="Google Icon"
-                            class="LazyImage___StyledImg-sc-1pcy1c0-0 bfuFas null lazyload blur-up">
-                    </button>
-                    <button class="px-3 py-3 bg-gray-200 rounded-lg hover:bg-gray-300">
-                        <img data-src="https://doimages.nyc3.digitaloceanspaces.com/github-logo.svg"
-                            src="https://doimages.nyc3.digitaloceanspaces.com/github-logo.svg" alt="GitHub Icon"
-                            class="LazyImage___StyledImg-sc-1pcy1c0-0 bfuFas null lazyload blur-up">
-                    </button>
-                </div>
-                <div class=" text-gray-500">By signig up your agree to the <a href="" class=" font-light underline">Terms of Service</a></div>
             </div>
         </div>
+    </div>
 
-</body>
+    <!-- STATS -->
+    <div class="py-16 bg-do-blue-lighter">
+        <div class="container flex mx-auto">
+            <div class="flex w-1/3 gap-2">
+                <div>
+                    <img src="data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjcyIiB2aWV3Qm94PSIwIDAgNzIgNzIiIHdpZHRoPSI3MiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBzdHJva2U9IiMwMDNmOTkiIHN0cm9rZS13aWR0aD0iMiI+PGNpcmNsZSBjeD0iMzYiIGN5PSIzNiIgZmlsbD0iI2NlZTBmYSIgcj0iMjYiLz48ZWxsaXBzZSBjeD0iMzYiIGN5PSIzNiIgcng9IjEwIiByeT0iMjYiLz48ZWxsaXBzZSBjeD0iMzYiIGN5PSIzNiIgcng9IjEwIiByeT0iMjYiIHRyYW5zZm9ybT0ibWF0cml4KDAgMSAtMSAwIDcyIDApIi8+PGNpcmNsZSBjeD0iNTAuNSIgY3k9IjIxLjUiIGZpbGw9IiNmZmYiIHI9IjEyLjUiLz48cGF0aCBkPSJtNDQgMThzLjc2NTEtMSAyLTEgMiAxIDIgMSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PHBhdGggZD0ibTU2IDI0Yy0xLjMyNDYgMi4wNTctMy4wNTM0IDMtNS41IDNzLTQuMTc1NC0uOTQzLTUuNS0zIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48cGF0aCBkPSJtNTMgMThzLjc2NTEtMSAyLTEgMiAxIDIgMSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PC9nPjxwYXRoIGQ9Im00MSAxMy0xLTIgMyAuNXoiIGZpbGw9IiMwMDNmOTkiLz48cGF0aCBkPSJtNjAgMzItMS0yIDMgLjV6IiBmaWxsPSIjMDAzZjk5Ii8+PC9zdmc+"
+                        alt="">
+                </div>
 
-</html>
+                <div>
+                    <div class="text-4xl font-bold">598k</div>
+                    <div class="text-gray-500">Customers worldwide.</div>
+                </div>
+            </div>
 
+            <div class="flex w-1/3 gap-2">
+                <div>
+                    <img src="data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjcyIiB2aWV3Qm94PSIwIDAgNzIgNzIiIHdpZHRoPSI3MiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBzdHJva2U9IiMwMDNmOTkiIHN0cm9rZS13aWR0aD0iMiI+PGNpcmNsZSBjeD0iMzciIGN5PSI0NyIgZmlsbD0iI2NlZTBmYSIgcj0iMTgiLz48cGF0aCBkPSJtMjguMjMyNCAzMS45NTQ2LTExLTE5LjA1MjYiLz48cGF0aCBkPSJtMzEuNzIyOCA4LTEyLjk5MDQgNy41IDQuNSA3Ljc5NDIgNi4wNjIyLTMuNS4zODQgMi42NjUxIDE0LjcyMjQtOC41LTQuODQ4MS0yLjM5NzEuMzQ4MS01LjM5NzE0LTcuNzk0MiA0LjUwMDA0eiIvPjxlbGxpcHNlIGN4PSIzNi45OTk5IiBjeT0iNDYuOTk5OSIgcng9IjEwIiByeT0iMTgiIHRyYW5zZm9ybT0ibWF0cml4KC0uODY2MDI1NCAuNSAtLjUgLS44NjYwMjU0IDkyLjU0MjcwMyA2OS4yMDMwNTcpIi8+PC9nPjxjaXJjbGUgY3g9IjE2LjczMiIgY3k9IjEyLjAzNiIgZmlsbD0iIzAwM2Y5OSIgcj0iMiIgdHJhbnNmb3JtPSJtYXRyaXgoLjg2NjAyNTQgLS41IC41IC44NjYwMjU0IC0zLjc3NjMzNyA5Ljk3ODUxOCkiLz48cGF0aCBkPSJtNTguMDMxMSAxNi4yNjczYy4xNjExLS40MzU0Ljc3NjctLjQzNTQuOTM3OCAwbDEuMjA2OSAzLjI2MTVjLjA1MDYuMTM2OC4xNTg2LjI0NDguMjk1NC4yOTU0bDMuMjYxNSAxLjIwNjljLjQzNTQuMTYxMS40MzU0Ljc3NjcgMCAuOTM3OGwtMy4yNjE1IDEuMjA2OWMtLjEzNjguMDUwNi0uMjQ0OC4xNTg2LS4yOTU0LjI5NTRsLTEuMjA2OSAzLjI2MTVjLS4xNjExLjQzNTQtLjc3NjcuNDM1NC0uOTM3OCAwbC0xLjIwNjktMy4yNjE1Yy0uMDUwNi0uMTM2OC0uMTU4Ni0uMjQ0OC0uMjk1NC0uMjk1NGwtMy4yNjE1LTEuMjA2OWMtLjQzNTQtLjE2MTEtLjQzNTQtLjc3NjcgMC0uOTM3OGwzLjI2MTUtMS4yMDY5Yy4xMzY4LS4wNTA2LjI0NDgtLjE1ODYuMjk1NC0uMjk1NHoiIGZpbGw9IiNjZWUwZmEiIHN0cm9rZT0iIzAwM2Y5OSIgc3Ryb2tlLXdpZHRoPSIyIi8+PHBhdGggZD0ibTEwIDMwdjYiIHN0cm9rZT0iIzAwM2Y5OSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2Utd2lkdGg9IjIiLz48cGF0aCBkPSJtMTMgMzNoLTYiIHN0cm9rZT0iIzAwM2Y5OSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2Utd2lkdGg9IjIiLz48L3N2Zz4="
+                        alt="">
+                </div>
+
+                <div>
+                    <div class="text-4xl font-bold">185</div>
+                    <div class="text-gray-500">Countries we serve.</div>
+                </div>
+            </div>
+
+            <div class="flex w-1/3 gap-2">
+                <div>
+                    <img src="data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjcyIiB2aWV3Qm94PSIwIDAgNzIgNzIiIHdpZHRoPSI3MiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Im01MS4zMzI3IDU5YzYuNDY2OS00LjcyOTcgMTAuNjY3My0xMi4zNzQzIDEwLjY2NzMtMjEgMC0xNC4zNTk0LTExLjY0MDYtMjYtMjYtMjZzLTI2IDExLjY0MDYtMjYgMjZjMCA4LjYyNTcgNC4yMDA0IDE2LjI3MDMgMTAuNjY3MyAyMXoiIGZpbGw9IiNjZWUwZmEiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjxwYXRoIGQ9Im01MS4zMzI3IDU5djFoLjMyNjdsLjI2MzctLjE5Mjh6bS0zMC42NjU0IDAtLjU5MDQuODA3Mi4yNjM3LjE5MjhoLjMyNjd6bTQwLjMzMjctMjFjMCA4LjI5MzItNC4wMzcxIDE1LjY0MzMtMTAuMjU3NiAyMC4xOTI4bDEuMTgwNyAxLjYxNDRjNi43MTMzLTQuOTEgMTEuMDc2OS0xMi44NDkxIDExLjA3NjktMjEuODA3MnptLTI1LTI1YzEzLjgwNzEgMCAyNSAxMS4xOTI5IDI1IDI1aDJjMC0xNC45MTE3LTEyLjA4ODMtMjctMjctMjd6bS0yNSAyNWMwLTEzLjgwNzEgMTEuMTkyOS0yNSAyNS0yNXYtMmMtMTQuOTExNyAwLTI3IDEyLjA4ODMtMjcgMjd6bTEwLjI1NzYgMjAuMTkyOGMtNi4yMjA1LTQuNTQ5NS0xMC4yNTc2LTExLjg5OTYtMTAuMjU3Ni0yMC4xOTI4aC0yYzAgOC45NTgxIDQuMzYzNiAxNi44OTcyIDExLjA3NjkgMjEuODA3MnptLS41OTAzIDEuODA3MmgzMC42NjU0di0yaC0zMC42NjU0eiIgZmlsbD0iIzAwM2Y5OSIvPjxnIHN0cm9rZT0iIzAwM2Y5OSIgc3Ryb2tlLXdpZHRoPSIyIj48cGF0aCBkPSJtMzYgMTJ2NiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PHBhdGggZD0ibTE3LjYxNTIgMTkuNjE1MiA0LjI0MjcgNC4yNDI3IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48cGF0aCBkPSJtNTQuMzg0OCAxOS42MTUyLTQuMjQyNyA0LjI0MjYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxwYXRoIGQ9Im0xMCAzOGg2IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48cGF0aCBkPSJtNTYgMzhoNiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PHBhdGggZD0ibTUwLjE0MjYgNTIuMTQyMSA0LjI0MjYgNC4yNDI2IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48cGF0aCBkPSJtMjEuODU3NCA1Mi4xNDItNC4yNDI2IDQuMjQyNyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PHBhdGggZD0ibTMxLjk3MzMgMzUuNDU3MSAxMS42MjIzLTExLjc3NzhjLjM2MTgtLjM2NjYuOTc0Ni0uMDEyOC44MzguNDgzOGwtNC4zODg3IDE1Ljk1NDEtNC4wMzU4LTIuMzMwMXoiLz48Y2lyY2xlIGN4PSIzNiIgY3k9IjM4IiBmaWxsPSIjZmZmIiByPSI2Ii8+PHJlY3QgZmlsbD0iI2ZmZiIgaGVpZ2h0PSI1IiByeD0iMSIgd2lkdGg9IjE2IiB4PSIyOCIgeT0iNDkiLz48cGF0aCBkPSJtMzkgNDl2NSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PHBhdGggZD0ibTMzIDQ5djUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjwvZz48L3N2Zz4="
+                        alt="">
+                </div>
+
+                <div>
+                    <div class="text-4xl font-bold">99.99%</div>
+                    <div class="text-gray-500">Uptime SLA for VMs & Block Storage.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SLIDES -->
+
+    <div class="bg-gray-200 py-12">
+        <!-- Franja 1 -->
+        <div class="flex gap-x-5">
+
+            <div class="-ml-32 shrink-0 flex bg-white w-88 h-48 rounded-lg shadow-lg">
+                <div class="m-auto">
+                    <img src="data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjU4IiB2aWV3Qm94PSIwIDAgMTUyIDU4IiB3aWR0aD0iMTUyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiM4YzkyOWQiPjxwYXRoIGQ9Im0xMTMuODA0IDE4LjYxNmgtMi43NjNsLjAwOSAyMC43Njg5aDExLjE3OXYtMi41NjgzaC04LjQxNnoiLz48cGF0aCBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Im0xMjQuMTQ1IDI1LjI3ODdjMS41OTgtMS4zMjk3IDMuNjQ0LTIuMTI4NSA1Ljg3Ni0yLjEyODUgNC4xMTMgMCA1LjU1OCAyLjI1MTMgNS41NTggNS42MTI1djEwLjYyMjJoLTEuOTQ3bC0uNTAzLTIuMDI5M2MtLjY1OSAxLjQ5MDItMi41NjQgMi40MDk4LTQuNTUzIDIuNDA5OC0yLjk1MSAwLTQuODk4LTEuNjE3MS00Ljg5OC00LjgxOTYgMC0zLjU4MzEgMi40NDktNS4yOTU0IDcuMjg1LTUuMjk1NC41NjUgMCAxLjQ3Ni4wNjM2IDEuOTE1LjE1ODd2LTEuMDE0N2MwLTEuOTY1OS0xLjAwNS0zLjEzOTMtMy4yNjUtMy4xMzkzLTEuOTc5IDAtMy4zNi42NjYxLTQuNDkxIDEuMzMxOXptNS4zMDkgMTEuOTE4NGMxLjU3IDAgMi43MzItLjcyOTQgMy40MjItMS40NTg3di0zLjgzNjhjLS40NzEtLjA5NS0xLjM4MS0uMTU4NC0xLjk0Ni0uMTU4NC0zLjAxNSAwLTQuNDI4Ljk4My00LjQyOCAzLjA0MzkgMCAxLjM2MzYuODQ4IDIuNDEgMi45NTIgMi40MXoiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0ibTE0MS44NTYgMjQuODQ2OXMxLjMyOS0xLjY5NjYgMy43OTktMS42OTY2YzQuMDUxIDAgNi4zNDMgMy4wMTI0IDYuMzQzIDcuNTQ2NyAwIDUuNzM5My0yLjQ4IDkuMDY4NS03LjYzIDkuMDY4NS0yLjAxIDAtMy44NjMtLjMxNy01LjIxMy0uODg3N2wtLjAwOS0yMC4yNjE3aDEuNDU1IDEuMjQ2bC4wMDkgMy41NTE0em0tLjAwMyAxMi4wMDA2Yy42OTEuMzE3MSAxLjYwMS40NDM5IDIuNjM4LjQ0MzkgMi45ODMgMCA0LjY0Ny0yLjA2MTEgNC42NDctNi40MzY3IDAtMy4wNzU5LTEuMDM2LTQuOTc4My0zLjcwNS00Ljk3ODMtMS40NzYgMC0yLjYzOC41NzA3LTMuNTggMS4zNjM2di45OTg2eiIgZmlsbC1ydWxlPSJldmVub2RkIi8+PHBhdGggZD0ibTgzLjc3NiAyMC44Njc2YzIuNDQ5MyAwIDQuMDE5NC44MjQzIDUuMDU1NyAxLjY0ODhsMS4xODc1LTIuMDc3MWMtMS42MTg2LTEuNDMzMy0zLjc5NTYtMi4yMDM2LTYuMTE3Ni0yLjIwMzYtNS44NzIgMC05Ljk4NTYgMy42MTQ5LTkuOTg1NiAxMC45MDc3IDAgNy42NDE5IDQuNDM3OCAxMC42MjI0IDkuNTE0NiAxMC42MjI0IDIuNTQzNiAwIDQuNzEwMy0uNjAyNCA2LjEyMzMtMS4yMDQ5bC0uMDU3OS04LjE2NDl2LS45NjMyLTEuNjA1MmgtNy41MzYzdjIuNTY4NGg0LjgwNDNsLjA1NzkgNi4xOTg5Yy0uNjI4LjMxNzEtMS43MjcxLjU3MDctMy4yMDI4LjU3MDctNC4wODIyIDAtNi44MTQyLTIuNTkzLTYuODE0Mi04LjA1MzkgMC01LjU0ODggMi44MjYyLTguMjQ0MSA2Ljk3MTEtOC4yNDQxeiIvPjxwYXRoIGQ9Im0xMDMuMjAzIDE4LjYxNmgtMi43MDFsLjAwOSAzLjQ4Nzl2MS40MjcuODMxNiAxLjQ1MTQgOC4zMDc1LjAzMTdjMCAzLjM2MTEgMS40NDQgNS42MTI0IDUuNTU4IDUuNjEyNC41NjggMCAxLjEyNC0uMDUyMSAxLjY2NC0uMTUxMnYtMi40NDg4Yy0uMzkxLjA2MDUtLjgwOC4wOTQ5LTEuMjU2LjA5NDktMi4yNjEgMC0zLjI2Ni0xLjE3MzItMy4yNjYtMy4xMzl2LTguMzA3NWg0LjUyMnYtMi4yODNoLTQuNTIyeiIvPjxwYXRoIGQ9Im05My42NDY1IDM5LjM4NDJoMi43MDA2di0xNS44NTQzaC0yLjcwMDZ6Ii8+PHBhdGggZD0ibTkzLjY0NjUgMjEuMzQyOWgyLjcwMDZ2LTIuNzI3aC0yLjcwMDZ6Ii8+PC9nPjxwYXRoIGQ9Im02Mi4yMjggMzMuMTYwNS0zLjQ4ODQtMTAuODQwOS02LjkxMzYtMjEuNDg1OTUxYy0uMzU1Ni0xLjEwNTM3NC0xLjkwNDQtMS4xMDUzNzQtMi4yNjAyIDBsLTYuOTEzNyAyMS40ODU5NTFoLTIyLjk1NzdsLTYuOTEzOS0yMS40ODU5NTFjLS4zNTU2LTEuMTA1Mzc0LTEuOTA0NC0xLjEwNTM3NC0yLjI2MDIgMGwtNi45MTM1NiAyMS40ODU5NTEtMy40ODgyNDQgMTAuODQwOWMtLjMxODMxLjk4ODguMDMwMzggMi4wNzIuODYzMjg2IDIuNjgzMWwzMC4xOTEzMTggMjIuMTQ5NiAzMC4xOTE2LTIyLjE0OTZjLjgzMjktLjYxMTEgMS4xODE0LTEuNjk0My44NjMzLTIuNjgzMXoiIGZpbGw9IiNmYzZkMjYiLz48cGF0aCBkPSJtMzEuMTcyMyA1Ny45OTQ1IDExLjQ3ODktMzUuNjczNmgtMjIuOTU3OHoiIGZpbGw9IiNlMjQzMjkiLz48cGF0aCBkPSJtMzEuMTczOCA1Ny45OTUzLTExLjQ3ODktMzUuNjczNWgtMTYuMDg3NDh6IiBmaWxsPSIjZmM2ZDI2Ii8+PHBhdGggZD0ibTMuNjA2ODQgMjIuMzE5OC0zLjQ4ODQxNyAxMC44NDA5Yy0uMzE4MTQyLjk4ODguMDMwMzggMi4wNzIuODYzNDU0IDIuNjgyOWwzMC4xOTEzMjMgMjIuMTQ5NnoiIGZpbGw9IiNmY2EzMjYiLz48cGF0aCBkPSJtMy42MDc0MiAyMi4zMjE1aDE2LjA4NzQ4bC02LjkxMzctMjEuNDg1OTc0Yy0uMzU1OC0xLjEwNTU0Ni0xLjkwNDYtMS4xMDU1NDYtMi4yNjAyIDB6IiBmaWxsPSIjZTI0MzI5Ii8+PHBhdGggZD0ibTMxLjE3NzcgNTcuOTk0NSAxMS40Nzg5LTM1LjY3MzVoMTYuMDg3NXoiIGZpbGw9IiNmYzZkMjYiLz48cGF0aCBkPSJtNTguNzQ0MSAyMi4zMjEgMy40ODg1IDEwLjg0MDljLjMxODEuOTg4OC0uMDMwNCAyLjA3MjEtLjg2MzUgMi42ODNsLTMwLjE5MTQgMjIuMTQ5NnoiIGZpbGw9IiNmY2EzMjYiLz48cGF0aCBkPSJtNTguNzM3OSAyMi4zMjA3aC0xNi4wODc1bDYuOTEzNy0yMS40ODU5MDdjLjM1NTgtMS4xMDU1NDUgMS45MDQ2LTEuMTA1NTQ1IDIuMjYwMiAweiIgZmlsbD0iI2UyNDMyOSIvPjwvc3ZnPg==" alt="">
+                </div>
+            </div>
+
+            <div class="shrink-0 flex flex-col justify-between px-5 py-4 bg-white w-88 h-48 rounded-lg shadow-lg text-sm">
+                <div class="flex">
+                    <div class="border-r-2 border-gray-300 pr-3">
+                        <img src="images\whatfix-logo-518571b748cf75851ccb108d25d08e91.svg" alt="">
+                    </div>
+                    <div class="pl-3">
+                        SaaS
+                    </div>
+                </div>
+
+                <div>
+                    “What we really love about the DigitalOcean platform is the ease of use.”
+                </div>
+
+                <div class="text-gray-500">
+                    Achyuth Krishna, Director of Engineering
+                </div>
+            </div>
+
+            <div class="shrink-0 flex bg-white w-88 h-48 rounded-lg shadow-lg">
+                <div class="m-auto">
+                    <img src="data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjU4IiB2aWV3Qm94PSIwIDAgMTUyIDU4IiB3aWR0aD0iMTUyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiM4YzkyOWQiPjxwYXRoIGQ9Im0xMTMuODA0IDE4LjYxNmgtMi43NjNsLjAwOSAyMC43Njg5aDExLjE3OXYtMi41NjgzaC04LjQxNnoiLz48cGF0aCBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Im0xMjQuMTQ1IDI1LjI3ODdjMS41OTgtMS4zMjk3IDMuNjQ0LTIuMTI4NSA1Ljg3Ni0yLjEyODUgNC4xMTMgMCA1LjU1OCAyLjI1MTMgNS41NTggNS42MTI1djEwLjYyMjJoLTEuOTQ3bC0uNTAzLTIuMDI5M2MtLjY1OSAxLjQ5MDItMi41NjQgMi40MDk4LTQuNTUzIDIuNDA5OC0yLjk1MSAwLTQuODk4LTEuNjE3MS00Ljg5OC00LjgxOTYgMC0zLjU4MzEgMi40NDktNS4yOTU0IDcuMjg1LTUuMjk1NC41NjUgMCAxLjQ3Ni4wNjM2IDEuOTE1LjE1ODd2LTEuMDE0N2MwLTEuOTY1OS0xLjAwNS0zLjEzOTMtMy4yNjUtMy4xMzkzLTEuOTc5IDAtMy4zNi42NjYxLTQuNDkxIDEuMzMxOXptNS4zMDkgMTEuOTE4NGMxLjU3IDAgMi43MzItLjcyOTQgMy40MjItMS40NTg3di0zLjgzNjhjLS40NzEtLjA5NS0xLjM4MS0uMTU4NC0xLjk0Ni0uMTU4NC0zLjAxNSAwLTQuNDI4Ljk4My00LjQyOCAzLjA0MzkgMCAxLjM2MzYuODQ4IDIuNDEgMi45NTIgMi40MXoiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0ibTE0MS44NTYgMjQuODQ2OXMxLjMyOS0xLjY5NjYgMy43OTktMS42OTY2YzQuMDUxIDAgNi4zNDMgMy4wMTI0IDYuMzQzIDcuNTQ2NyAwIDUuNzM5My0yLjQ4IDkuMDY4NS03LjYzIDkuMDY4NS0yLjAxIDAtMy44NjMtLjMxNy01LjIxMy0uODg3N2wtLjAwOS0yMC4yNjE3aDEuNDU1IDEuMjQ2bC4wMDkgMy41NTE0em0tLjAwMyAxMi4wMDA2Yy42OTEuMzE3MSAxLjYwMS40NDM5IDIuNjM4LjQ0MzkgMi45ODMgMCA0LjY0Ny0yLjA2MTEgNC42NDctNi40MzY3IDAtMy4wNzU5LTEuMDM2LTQuOTc4My0zLjcwNS00Ljk3ODMtMS40NzYgMC0yLjYzOC41NzA3LTMuNTggMS4zNjM2di45OTg2eiIgZmlsbC1ydWxlPSJldmVub2RkIi8+PHBhdGggZD0ibTgzLjc3NiAyMC44Njc2YzIuNDQ5MyAwIDQuMDE5NC44MjQzIDUuMDU1NyAxLjY0ODhsMS4xODc1LTIuMDc3MWMtMS42MTg2LTEuNDMzMy0zLjc5NTYtMi4yMDM2LTYuMTE3Ni0yLjIwMzYtNS44NzIgMC05Ljk4NTYgMy42MTQ5LTkuOTg1NiAxMC45MDc3IDAgNy42NDE5IDQuNDM3OCAxMC42MjI0IDkuNTE0NiAxMC42MjI0IDIuNTQzNiAwIDQuNzEwMy0uNjAyNCA2LjEyMzMtMS4yMDQ5bC0uMDU3OS04LjE2NDl2LS45NjMyLTEuNjA1MmgtNy41MzYzdjIuNTY4NGg0LjgwNDNsLjA1NzkgNi4xOTg5Yy0uNjI4LjMxNzEtMS43MjcxLjU3MDctMy4yMDI4LjU3MDctNC4wODIyIDAtNi44MTQyLTIuNTkzLTYuODE0Mi04LjA1MzkgMC01LjU0ODggMi44MjYyLTguMjQ0MSA2Ljk3MTEtOC4yNDQxeiIvPjxwYXRoIGQ9Im0xMDMuMjAzIDE4LjYxNmgtMi43MDFsLjAwOSAzLjQ4Nzl2MS40MjcuODMxNiAxLjQ1MTQgOC4zMDc1LjAzMTdjMCAzLjM2MTEgMS40NDQgNS42MTI0IDUuNTU4IDUuNjEyNC41NjggMCAxLjEyNC0uMDUyMSAxLjY2NC0uMTUxMnYtMi40NDg4Yy0uMzkxLjA2MDUtLjgwOC4wOTQ5LTEuMjU2LjA5NDktMi4yNjEgMC0zLjI2Ni0xLjE3MzItMy4yNjYtMy4xMzl2LTguMzA3NWg0LjUyMnYtMi4yODNoLTQuNTIyeiIvPjxwYXRoIGQ9Im05My42NDY1IDM5LjM4NDJoMi43MDA2di0xNS44NTQzaC0yLjcwMDZ6Ii8+PHBhdGggZD0ibTkzLjY0NjUgMjEuMzQyOWgyLjcwMDZ2LTIuNzI3aC0yLjcwMDZ6Ii8+PC9nPjxwYXRoIGQ9Im02Mi4yMjggMzMuMTYwNS0zLjQ4ODQtMTAuODQwOS02LjkxMzYtMjEuNDg1OTUxYy0uMzU1Ni0xLjEwNTM3NC0xLjkwNDQtMS4xMDUzNzQtMi4yNjAyIDBsLTYuOTEzNyAyMS40ODU5NTFoLTIyLjk1NzdsLTYuOTEzOS0yMS40ODU5NTFjLS4zNTU2LTEuMTA1Mzc0LTEuOTA0NC0xLjEwNTM3NC0yLjI2MDIgMGwtNi45MTM1NiAyMS40ODU5NTEtMy40ODgyNDQgMTAuODQwOWMtLjMxODMxLjk4ODguMDMwMzggMi4wNzIuODYzMjg2IDIuNjgzMWwzMC4xOTEzMTggMjIuMTQ5NiAzMC4xOTE2LTIyLjE0OTZjLjgzMjktLjYxMTEgMS4xODE0LTEuNjk0My44NjMzLTIuNjgzMXoiIGZpbGw9IiNmYzZkMjYiLz48cGF0aCBkPSJtMzEuMTcyMyA1Ny45OTQ1IDExLjQ3ODktMzUuNjczNmgtMjIuOTU3OHoiIGZpbGw9IiNlMjQzMjkiLz48cGF0aCBkPSJtMzEuMTczOCA1Ny45OTUzLTExLjQ3ODktMzUuNjczNWgtMTYuMDg3NDh6IiBmaWxsPSIjZmM2ZDI2Ii8+PHBhdGggZD0ibTMuNjA2ODQgMjIuMzE5OC0zLjQ4ODQxNyAxMC44NDA5Yy0uMzE4MTQyLjk4ODguMDMwMzggMi4wNzIuODYzNDU0IDIuNjgyOWwzMC4xOTEzMjMgMjIuMTQ5NnoiIGZpbGw9IiNmY2EzMjYiLz48cGF0aCBkPSJtMy42MDc0MiAyMi4zMjE1aDE2LjA4NzQ4bC02LjkxMzctMjEuNDg1OTc0Yy0uMzU1OC0xLjEwNTU0Ni0xLjkwNDYtMS4xMDU1NDYtMi4yNjAyIDB6IiBmaWxsPSIjZTI0MzI5Ii8+PHBhdGggZD0ibTMxLjE3NzcgNTcuOTk0NSAxMS40Nzg5LTM1LjY3MzVoMTYuMDg3NXoiIGZpbGw9IiNmYzZkMjYiLz48cGF0aCBkPSJtNTguNzQ0MSAyMi4zMjEgMy40ODg1IDEwLjg0MDljLjMxODEuOTg4OC0uMDMwNCAyLjA3MjEtLjg2MzUgMi42ODNsLTMwLjE5MTQgMjIuMTQ5NnoiIGZpbGw9IiNmY2EzMjYiLz48cGF0aCBkPSJtNTguNzM3OSAyMi4zMjA3aC0xNi4wODc1bDYuOTEzNy0yMS40ODU5MDdjLjM1NTgtMS4xMDU1NDUgMS45MDQ2LTEuMTA1NTQ1IDIuMjYwMiAweiIgZmlsbD0iI2UyNDMyOSIvPjwvc3ZnPg==" alt="">
+                </div>
+            </div>
+
+            <div class="shrink-0 flex flex-col justify-between px-5 py-4 bg-white w-88 h-48 rounded-lg shadow-lg text-sm">
+                <div class="flex">
+                    <div class="border-r-2 border-gray-300 pr-3">
+                        <img src="images\whatfix-logo-518571b748cf75851ccb108d25d08e91.svg" alt="">
+                    </div>
+                    <div class="pl-3">
+                        SaaS
+                    </div>
+                </div>
+
+                <div>
+                    “What we really love about the DigitalOcean platform is the ease of use.”
+                </div>
+
+                <div class="text-gray-500">
+                    Achyuth Krishna, Director of Engineering
+                </div>
+            </div>
+
+            <div class="shrink-0 flex bg-white w-88 h-48 rounded-lg shadow-lg">
+                <div class="m-auto">
+                    <img src="data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjU4IiB2aWV3Qm94PSIwIDAgMTUyIDU4IiB3aWR0aD0iMTUyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiM4YzkyOWQiPjxwYXRoIGQ9Im0xMTMuODA0IDE4LjYxNmgtMi43NjNsLjAwOSAyMC43Njg5aDExLjE3OXYtMi41NjgzaC04LjQxNnoiLz48cGF0aCBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Im0xMjQuMTQ1IDI1LjI3ODdjMS41OTgtMS4zMjk3IDMuNjQ0LTIuMTI4NSA1Ljg3Ni0yLjEyODUgNC4xMTMgMCA1LjU1OCAyLjI1MTMgNS41NTggNS42MTI1djEwLjYyMjJoLTEuOTQ3bC0uNTAzLTIuMDI5M2MtLjY1OSAxLjQ5MDItMi41NjQgMi40MDk4LTQuNTUzIDIuNDA5OC0yLjk1MSAwLTQuODk4LTEuNjE3MS00Ljg5OC00LjgxOTYgMC0zLjU4MzEgMi40NDktNS4yOTU0IDcuMjg1LTUuMjk1NC41NjUgMCAxLjQ3Ni4wNjM2IDEuOTE1LjE1ODd2LTEuMDE0N2MwLTEuOTY1OS0xLjAwNS0zLjEzOTMtMy4yNjUtMy4xMzkzLTEuOTc5IDAtMy4zNi42NjYxLTQuNDkxIDEuMzMxOXptNS4zMDkgMTEuOTE4NGMxLjU3IDAgMi43MzItLjcyOTQgMy40MjItMS40NTg3di0zLjgzNjhjLS40NzEtLjA5NS0xLjM4MS0uMTU4NC0xLjk0Ni0uMTU4NC0zLjAxNSAwLTQuNDI4Ljk4My00LjQyOCAzLjA0MzkgMCAxLjM2MzYuODQ4IDIuNDEgMi45NTIgMi40MXoiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0ibTE0MS44NTYgMjQuODQ2OXMxLjMyOS0xLjY5NjYgMy43OTktMS42OTY2YzQuMDUxIDAgNi4zNDMgMy4wMTI0IDYuMzQzIDcuNTQ2NyAwIDUuNzM5My0yLjQ4IDkuMDY4NS03LjYzIDkuMDY4NS0yLjAxIDAtMy44NjMtLjMxNy01LjIxMy0uODg3N2wtLjAwOS0yMC4yNjE3aDEuNDU1IDEuMjQ2bC4wMDkgMy41NTE0em0tLjAwMyAxMi4wMDA2Yy42OTEuMzE3MSAxLjYwMS40NDM5IDIuNjM4LjQ0MzkgMi45ODMgMCA0LjY0Ny0yLjA2MTEgNC42NDctNi40MzY3IDAtMy4wNzU5LTEuMDM2LTQuOTc4My0zLjcwNS00Ljk3ODMtMS40NzYgMC0yLjYzOC41NzA3LTMuNTggMS4zNjM2di45OTg2eiIgZmlsbC1ydWxlPSJldmVub2RkIi8+PHBhdGggZD0ibTgzLjc3NiAyMC44Njc2YzIuNDQ5MyAwIDQuMDE5NC44MjQzIDUuMDU1NyAxLjY0ODhsMS4xODc1LTIuMDc3MWMtMS42MTg2LTEuNDMzMy0zLjc5NTYtMi4yMDM2LTYuMTE3Ni0yLjIwMzYtNS44NzIgMC05Ljk4NTYgMy42MTQ5LTkuOTg1NiAxMC45MDc3IDAgNy42NDE5IDQuNDM3OCAxMC42MjI0IDkuNTE0NiAxMC42MjI0IDIuNTQzNiAwIDQuNzEwMy0uNjAyNCA2LjEyMzMtMS4yMDQ5bC0uMDU3OS04LjE2NDl2LS45NjMyLTEuNjA1MmgtNy41MzYzdjIuNTY4NGg0LjgwNDNsLjA1NzkgNi4xOTg5Yy0uNjI4LjMxNzEtMS43MjcxLjU3MDctMy4yMDI4LjU3MDctNC4wODIyIDAtNi44MTQyLTIuNTkzLTYuODE0Mi04LjA1MzkgMC01LjU0ODggMi44MjYyLTguMjQ0MSA2Ljk3MTEtOC4yNDQxeiIvPjxwYXRoIGQ9Im0xMDMuMjAzIDE4LjYxNmgtMi43MDFsLjAwOSAzLjQ4Nzl2MS40MjcuODMxNiAxLjQ1MTQgOC4zMDc1LjAzMTdjMCAzLjM2MTEgMS40NDQgNS42MTI0IDUuNTU4IDUuNjEyNC41NjggMCAxLjEyNC0uMDUyMSAxLjY2NC0uMTUxMnYtMi40NDg4Yy0uMzkxLjA2MDUtLjgwOC4wOTQ5LTEuMjU2LjA5NDktMi4yNjEgMC0zLjI2Ni0xLjE3MzItMy4yNjYtMy4xMzl2LTguMzA3NWg0LjUyMnYtMi4yODNoLTQuNTIyeiIvPjxwYXRoIGQ9Im05My42NDY1IDM5LjM4NDJoMi43MDA2di0xNS44NTQzaC0yLjcwMDZ6Ii8+PHBhdGggZD0ibTkzLjY0NjUgMjEuMzQyOWgyLjcwMDZ2LTIuNzI3aC0yLjcwMDZ6Ii8+PC9nPjxwYXRoIGQ9Im02Mi4yMjggMzMuMTYwNS0zLjQ4ODQtMTAuODQwOS02LjkxMzYtMjEuNDg1OTUxYy0uMzU1Ni0xLjEwNTM3NC0xLjkwNDQtMS4xMDUzNzQtMi4yNjAyIDBsLTYuOTEzNyAyMS40ODU5NTFoLTIyLjk1NzdsLTYuOTEzOS0yMS40ODU5NTFjLS4zNTU2LTEuMTA1Mzc0LTEuOTA0NC0xLjEwNTM3NC0yLjI2MDIgMGwtNi45MTM1NiAyMS40ODU5NTEtMy40ODgyNDQgMTAuODQwOWMtLjMxODMxLjk4ODguMDMwMzggMi4wNzIuODYzMjg2IDIuNjgzMWwzMC4xOTEzMTggMjIuMTQ5NiAzMC4xOTE2LTIyLjE0OTZjLjgzMjktLjYxMTEgMS4xODE0LTEuNjk0My44NjMzLTIuNjgzMXoiIGZpbGw9IiNmYzZkMjYiLz48cGF0aCBkPSJtMzEuMTcyMyA1Ny45OTQ1IDExLjQ3ODktMzUuNjczNmgtMjIuOTU3OHoiIGZpbGw9IiNlMjQzMjkiLz48cGF0aCBkPSJtMzEuMTczOCA1Ny45OTUzLTExLjQ3ODktMzUuNjczNWgtMTYuMDg3NDh6IiBmaWxsPSIjZmM2ZDI2Ii8+PHBhdGggZD0ibTMuNjA2ODQgMjIuMzE5OC0zLjQ4ODQxNyAxMC44NDA5Yy0uMzE4MTQyLjk4ODguMDMwMzggMi4wNzIuODYzNDU0IDIuNjgyOWwzMC4xOTEzMjMgMjIuMTQ5NnoiIGZpbGw9IiNmY2EzMjYiLz48cGF0aCBkPSJtMy42MDc0MiAyMi4zMjE1aDE2LjA4NzQ4bC02LjkxMzctMjEuNDg1OTc0Yy0uMzU1OC0xLjEwNTU0Ni0xLjkwNDYtMS4xMDU1NDYtMi4yNjAyIDB6IiBmaWxsPSIjZTI0MzI5Ii8+PHBhdGggZD0ibTMxLjE3NzcgNTcuOTk0NSAxMS40Nzg5LTM1LjY3MzVoMTYuMDg3NXoiIGZpbGw9IiNmYzZkMjYiLz48cGF0aCBkPSJtNTguNzQ0MSAyMi4zMjEgMy40ODg1IDEwLjg0MDljLjMxODEuOTg4OC0uMDMwNCAyLjA3MjEtLjg2MzUgMi42ODNsLTMwLjE5MTQgMjIuMTQ5NnoiIGZpbGw9IiNmY2EzMjYiLz48cGF0aCBkPSJtNTguNzM3OSAyMi4zMjA3aC0xNi4wODc1bDYuOTEzNy0yMS40ODU5MDdjLjM1NTgtMS4xMDU1NDUgMS45MDQ2LTEuMTA1NTQ1IDIuMjYwMiAweiIgZmlsbD0iI2UyNDMyOSIvPjwvc3ZnPg=="
+                        alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- Fin franja1 -->
+        <div class="bg-gray-200 py-12">
+
+            <!-- Franja 2 -->
+            <div class="flex gap-x-5">
+    
+                <div class="shrink-0 flex bg-white w-88 h-48 rounded-lg shadow-lg">
+                    <div class="m-auto">
+                        <img src="data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjU4IiB2aWV3Qm94PSIwIDAgMTUyIDU4IiB3aWR0aD0iMTUyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiM4YzkyOWQiPjxwYXRoIGQ9Im0xMTMuODA0IDE4LjYxNmgtMi43NjNsLjAwOSAyMC43Njg5aDExLjE3OXYtMi41NjgzaC04LjQxNnoiLz48cGF0aCBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Im0xMjQuMTQ1IDI1LjI3ODdjMS41OTgtMS4zMjk3IDMuNjQ0LTIuMTI4NSA1Ljg3Ni0yLjEyODUgNC4xMTMgMCA1LjU1OCAyLjI1MTMgNS41NTggNS42MTI1djEwLjYyMjJoLTEuOTQ3bC0uNTAzLTIuMDI5M2MtLjY1OSAxLjQ5MDItMi41NjQgMi40MDk4LTQuNTUzIDIuNDA5OC0yLjk1MSAwLTQuODk4LTEuNjE3MS00Ljg5OC00LjgxOTYgMC0zLjU4MzEgMi40NDktNS4yOTU0IDcuMjg1LTUuMjk1NC41NjUgMCAxLjQ3Ni4wNjM2IDEuOTE1LjE1ODd2LTEuMDE0N2MwLTEuOTY1OS0xLjAwNS0zLjEzOTMtMy4yNjUtMy4xMzkzLTEuOTc5IDAtMy4zNi42NjYxLTQuNDkxIDEuMzMxOXptNS4zMDkgMTEuOTE4NGMxLjU3IDAgMi43MzItLjcyOTQgMy40MjItMS40NTg3di0zLjgzNjhjLS40NzEtLjA5NS0xLjM4MS0uMTU4NC0xLjk0Ni0uMTU4NC0zLjAxNSAwLTQuNDI4Ljk4My00LjQyOCAzLjA0MzkgMCAxLjM2MzYuODQ4IDIuNDEgMi45NTIgMi40MXoiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0ibTE0MS44NTYgMjQuODQ2OXMxLjMyOS0xLjY5NjYgMy43OTktMS42OTY2YzQuMDUxIDAgNi4zNDMgMy4wMTI0IDYuMzQzIDcuNTQ2NyAwIDUuNzM5My0yLjQ4IDkuMDY4NS03LjYzIDkuMDY4NS0yLjAxIDAtMy44NjMtLjMxNy01LjIxMy0uODg3N2wtLjAwOS0yMC4yNjE3aDEuNDU1IDEuMjQ2bC4wMDkgMy41NTE0em0tLjAwMyAxMi4wMDA2Yy42OTEuMzE3MSAxLjYwMS40NDM5IDIuNjM4LjQ0MzkgMi45ODMgMCA0LjY0Ny0yLjA2MTEgNC42NDctNi40MzY3IDAtMy4wNzU5LTEuMDM2LTQuOTc4My0zLjcwNS00Ljk3ODMtMS40NzYgMC0yLjYzOC41NzA3LTMuNTggMS4zNjM2di45OTg2eiIgZmlsbC1ydWxlPSJldmVub2RkIi8+PHBhdGggZD0ibTgzLjc3NiAyMC44Njc2YzIuNDQ5MyAwIDQuMDE5NC44MjQzIDUuMDU1NyAxLjY0ODhsMS4xODc1LTIuMDc3MWMtMS42MTg2LTEuNDMzMy0zLjc5NTYtMi4yMDM2LTYuMTE3Ni0yLjIwMzYtNS44NzIgMC05Ljk4NTYgMy42MTQ5LTkuOTg1NiAxMC45MDc3IDAgNy42NDE5IDQuNDM3OCAxMC42MjI0IDkuNTE0NiAxMC42MjI0IDIuNTQzNiAwIDQuNzEwMy0uNjAyNCA2LjEyMzMtMS4yMDQ5bC0uMDU3OS04LjE2NDl2LS45NjMyLTEuNjA1MmgtNy41MzYzdjIuNTY4NGg0LjgwNDNsLjA1NzkgNi4xOTg5Yy0uNjI4LjMxNzEtMS43MjcxLjU3MDctMy4yMDI4LjU3MDctNC4wODIyIDAtNi44MTQyLTIuNTkzLTYuODE0Mi04LjA1MzkgMC01LjU0ODggMi44MjYyLTguMjQ0MSA2Ljk3MTEtOC4yNDQxeiIvPjxwYXRoIGQ9Im0xMDMuMjAzIDE4LjYxNmgtMi43MDFsLjAwOSAzLjQ4Nzl2MS40MjcuODMxNiAxLjQ1MTQgOC4zMDc1LjAzMTdjMCAzLjM2MTEgMS40NDQgNS42MTI0IDUuNTU4IDUuNjEyNC41NjggMCAxLjEyNC0uMDUyMSAxLjY2NC0uMTUxMnYtMi40NDg4Yy0uMzkxLjA2MDUtLjgwOC4wOTQ5LTEuMjU2LjA5NDktMi4yNjEgMC0zLjI2Ni0xLjE3MzItMy4yNjYtMy4xMzl2LTguMzA3NWg0LjUyMnYtMi4yODNoLTQuNTIyeiIvPjxwYXRoIGQ9Im05My42NDY1IDM5LjM4NDJoMi43MDA2di0xNS44NTQzaC0yLjcwMDZ6Ii8+PHBhdGggZD0ibTkzLjY0NjUgMjEuMzQyOWgyLjcwMDZ2LTIuNzI3aC0yLjcwMDZ6Ii8+PC9nPjxwYXRoIGQ9Im02Mi4yMjggMzMuMTYwNS0zLjQ4ODQtMTAuODQwOS02LjkxMzYtMjEuNDg1OTUxYy0uMzU1Ni0xLjEwNTM3NC0xLjkwNDQtMS4xMDUzNzQtMi4yNjAyIDBsLTYuOTEzNyAyMS40ODU5NTFoLTIyLjk1NzdsLTYuOTEzOS0yMS40ODU5NTFjLS4zNTU2LTEuMTA1Mzc0LTEuOTA0NC0xLjEwNTM3NC0yLjI2MDIgMGwtNi45MTM1NiAyMS40ODU5NTEtMy40ODgyNDQgMTAuODQwOWMtLjMxODMxLjk4ODguMDMwMzggMi4wNzIuODYzMjg2IDIuNjgzMWwzMC4xOTEzMTggMjIuMTQ5NiAzMC4xOTE2LTIyLjE0OTZjLjgzMjktLjYxMTEgMS4xODE0LTEuNjk0My44NjMzLTIuNjgzMXoiIGZpbGw9IiNmYzZkMjYiLz48cGF0aCBkPSJtMzEuMTcyMyA1Ny45OTQ1IDExLjQ3ODktMzUuNjczNmgtMjIuOTU3OHoiIGZpbGw9IiNlMjQzMjkiLz48cGF0aCBkPSJtMzEuMTczOCA1Ny45OTUzLTExLjQ3ODktMzUuNjczNWgtMTYuMDg3NDh6IiBmaWxsPSIjZmM2ZDI2Ii8+PHBhdGggZD0ibTMuNjA2ODQgMjIuMzE5OC0zLjQ4ODQxNyAxMC44NDA5Yy0uMzE4MTQyLjk4ODguMDMwMzggMi4wNzIuODYzNDU0IDIuNjgyOWwzMC4xOTEzMjMgMjIuMTQ5NnoiIGZpbGw9IiNmY2EzMjYiLz48cGF0aCBkPSJtMy42MDc0MiAyMi4zMjE1aDE2LjA4NzQ4bC02LjkxMzctMjEuNDg1OTc0Yy0uMzU1OC0xLjEwNTU0Ni0xLjkwNDYtMS4xMDU1NDYtMi4yNjAyIDB6IiBmaWxsPSIjZTI0MzI5Ii8+PHBhdGggZD0ibTMxLjE3NzcgNTcuOTk0NSAxMS40Nzg5LTM1LjY3MzVoMTYuMDg3NXoiIGZpbGw9IiNmYzZkMjYiLz48cGF0aCBkPSJtNTguNzQ0MSAyMi4zMjEgMy40ODg1IDEwLjg0MDljLjMxODEuOTg4OC0uMDMwNCAyLjA3MjEtLjg2MzUgMi42ODNsLTMwLjE5MTQgMjIuMTQ5NnoiIGZpbGw9IiNmY2EzMjYiLz48cGF0aCBkPSJtNTguNzM3OSAyMi4zMjA3aC0xNi4wODc1bDYuOTEzNy0yMS40ODU5MDdjLjM1NTgtMS4xMDU1NDUgMS45MDQ2LTEuMTA1NTQ1IDIuMjYwMiAweiIgZmlsbD0iI2UyNDMyOSIvPjwvc3ZnPg==" alt="">
+                    </div>
+                </div>
+    
+                <div class="shrink-0 flex flex-col justify-between px-5 py-4 bg-white w-88 h-48 rounded-lg shadow-lg text-sm">
+                    <div class="flex">
+                        <div class="border-r-2 border-gray-300 pr-3">
+                            <img src="images\whatfix-logo-518571b748cf75851ccb108d25d08e91.svg" alt="">
+                        </div>
+                        <div class="pl-3">
+                            SaaS
+                        </div>
+                    </div>
+    
+                    <div>
+                        “What we really love about the DigitalOcean platform is the ease of use.”
+                    </div>
+    
+                    <div class="text-gray-500">
+                        Achyuth Krishna, Director of Engineering
+                    </div>
+                </div>
+    
+                <div class="shrink-0 flex bg-white w-88 h-48 rounded-lg shadow-lg">
+                    <div class="m-auto">
+                        <img src="data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjU4IiB2aWV3Qm94PSIwIDAgMTUyIDU4IiB3aWR0aD0iMTUyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiM4YzkyOWQiPjxwYXRoIGQ9Im0xMTMuODA0IDE4LjYxNmgtMi43NjNsLjAwOSAyMC43Njg5aDExLjE3OXYtMi41NjgzaC04LjQxNnoiLz48cGF0aCBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Im0xMjQuMTQ1IDI1LjI3ODdjMS41OTgtMS4zMjk3IDMuNjQ0LTIuMTI4NSA1Ljg3Ni0yLjEyODUgNC4xMTMgMCA1LjU1OCAyLjI1MTMgNS41NTggNS42MTI1djEwLjYyMjJoLTEuOTQ3bC0uNTAzLTIuMDI5M2MtLjY1OSAxLjQ5MDItMi41NjQgMi40MDk4LTQuNTUzIDIuNDA5OC0yLjk1MSAwLTQuODk4LTEuNjE3MS00Ljg5OC00LjgxOTYgMC0zLjU4MzEgMi40NDktNS4yOTU0IDcuMjg1LTUuMjk1NC41NjUgMCAxLjQ3Ni4wNjM2IDEuOTE1LjE1ODd2LTEuMDE0N2MwLTEuOTY1OS0xLjAwNS0zLjEzOTMtMy4yNjUtMy4xMzkzLTEuOTc5IDAtMy4zNi42NjYxLTQuNDkxIDEuMzMxOXptNS4zMDkgMTEuOTE4NGMxLjU3IDAgMi43MzItLjcyOTQgMy40MjItMS40NTg3di0zLjgzNjhjLS40NzEtLjA5NS0xLjM4MS0uMTU4NC0xLjk0Ni0uMTU4NC0zLjAxNSAwLTQuNDI4Ljk4My00LjQyOCAzLjA0MzkgMCAxLjM2MzYuODQ4IDIuNDEgMi45NTIgMi40MXoiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0ibTE0MS44NTYgMjQuODQ2OXMxLjMyOS0xLjY5NjYgMy43OTktMS42OTY2YzQuMDUxIDAgNi4zNDMgMy4wMTI0IDYuMzQzIDcuNTQ2NyAwIDUuNzM5My0yLjQ4IDkuMDY4NS03LjYzIDkuMDY4NS0yLjAxIDAtMy44NjMtLjMxNy01LjIxMy0uODg3N2wtLjAwOS0yMC4yNjE3aDEuNDU1IDEuMjQ2bC4wMDkgMy41NTE0em0tLjAwMyAxMi4wMDA2Yy42OTEuMzE3MSAxLjYwMS40NDM5IDIuNjM4LjQ0MzkgMi45ODMgMCA0LjY0Ny0yLjA2MTEgNC42NDctNi40MzY3IDAtMy4wNzU5LTEuMDM2LTQuOTc4My0zLjcwNS00Ljk3ODMtMS40NzYgMC0yLjYzOC41NzA3LTMuNTggMS4zNjM2di45OTg2eiIgZmlsbC1ydWxlPSJldmVub2RkIi8+PHBhdGggZD0ibTgzLjc3NiAyMC44Njc2YzIuNDQ5MyAwIDQuMDE5NC44MjQzIDUuMDU1NyAxLjY0ODhsMS4xODc1LTIuMDc3MWMtMS42MTg2LTEuNDMzMy0zLjc5NTYtMi4yMDM2LTYuMTE3Ni0yLjIwMzYtNS44NzIgMC05Ljk4NTYgMy42MTQ5LTkuOTg1NiAxMC45MDc3IDAgNy42NDE5IDQuNDM3OCAxMC42MjI0IDkuNTE0NiAxMC42MjI0IDIuNTQzNiAwIDQuNzEwMy0uNjAyNCA2LjEyMzMtMS4yMDQ5bC0uMDU3OS04LjE2NDl2LS45NjMyLTEuNjA1MmgtNy41MzYzdjIuNTY4NGg0LjgwNDNsLjA1NzkgNi4xOTg5Yy0uNjI4LjMxNzEtMS43MjcxLjU3MDctMy4yMDI4LjU3MDctNC4wODIyIDAtNi44MTQyLTIuNTkzLTYuODE0Mi04LjA1MzkgMC01LjU0ODggMi44MjYyLTguMjQ0MSA2Ljk3MTEtOC4yNDQxeiIvPjxwYXRoIGQ9Im0xMDMuMjAzIDE4LjYxNmgtMi43MDFsLjAwOSAzLjQ4Nzl2MS40MjcuODMxNiAxLjQ1MTQgOC4zMDc1LjAzMTdjMCAzLjM2MTEgMS40NDQgNS42MTI0IDUuNTU4IDUuNjEyNC41NjggMCAxLjEyNC0uMDUyMSAxLjY2NC0uMTUxMnYtMi40NDg4Yy0uMzkxLjA2MDUtLjgwOC4wOTQ5LTEuMjU2LjA5NDktMi4yNjEgMC0zLjI2Ni0xLjE3MzItMy4yNjYtMy4xMzl2LTguMzA3NWg0LjUyMnYtMi4yODNoLTQuNTIyeiIvPjxwYXRoIGQ9Im05My42NDY1IDM5LjM4NDJoMi43MDA2di0xNS44NTQzaC0yLjcwMDZ6Ii8+PHBhdGggZD0ibTkzLjY0NjUgMjEuMzQyOWgyLjcwMDZ2LTIuNzI3aC0yLjcwMDZ6Ii8+PC9nPjxwYXRoIGQ9Im02Mi4yMjggMzMuMTYwNS0zLjQ4ODQtMTAuODQwOS02LjkxMzYtMjEuNDg1OTUxYy0uMzU1Ni0xLjEwNTM3NC0xLjkwNDQtMS4xMDUzNzQtMi4yNjAyIDBsLTYuOTEzNyAyMS40ODU5NTFoLTIyLjk1NzdsLTYuOTEzOS0yMS40ODU5NTFjLS4zNTU2LTEuMTA1Mzc0LTEuOTA0NC0xLjEwNTM3NC0yLjI2MDIgMGwtNi45MTM1NiAyMS40ODU5NTEtMy40ODgyNDQgMTAuODQwOWMtLjMxODMxLjk4ODguMDMwMzggMi4wNzIuODYzMjg2IDIuNjgzMWwzMC4xOTEzMTggMjIuMTQ5NiAzMC4xOTE2LTIyLjE0OTZjLjgzMjktLjYxMTEgMS4xODE0LTEuNjk0My44NjMzLTIuNjgzMXoiIGZpbGw9IiNmYzZkMjYiLz48cGF0aCBkPSJtMzEuMTcyMyA1Ny45OTQ1IDExLjQ3ODktMzUuNjczNmgtMjIuOTU3OHoiIGZpbGw9IiNlMjQzMjkiLz48cGF0aCBkPSJtMzEuMTczOCA1Ny45OTUzLTExLjQ3ODktMzUuNjczNWgtMTYuMDg3NDh6IiBmaWxsPSIjZmM2ZDI2Ii8+PHBhdGggZD0ibTMuNjA2ODQgMjIuMzE5OC0zLjQ4ODQxNyAxMC44NDA5Yy0uMzE4MTQyLjk4ODguMDMwMzggMi4wNzIuODYzNDU0IDIuNjgyOWwzMC4xOTEzMjMgMjIuMTQ5NnoiIGZpbGw9IiNmY2EzMjYiLz48cGF0aCBkPSJtMy42MDc0MiAyMi4zMjE1aDE2LjA4NzQ4bC02LjkxMzctMjEuNDg1OTc0Yy0uMzU1OC0xLjEwNTU0Ni0xLjkwNDYtMS4xMDU1NDYtMi4yNjAyIDB6IiBmaWxsPSIjZTI0MzI5Ii8+PHBhdGggZD0ibTMxLjE3NzcgNTcuOTk0NSAxMS40Nzg5LTM1LjY3MzVoMTYuMDg3NXoiIGZpbGw9IiNmYzZkMjYiLz48cGF0aCBkPSJtNTguNzQ0MSAyMi4zMjEgMy40ODg1IDEwLjg0MDljLjMxODEuOTg4OC0uMDMwNCAyLjA3MjEtLjg2MzUgMi42ODNsLTMwLjE5MTQgMjIuMTQ5NnoiIGZpbGw9IiNmY2EzMjYiLz48cGF0aCBkPSJtNTguNzM3OSAyMi4zMjA3aC0xNi4wODc1bDYuOTEzNy0yMS40ODU5MDdjLjM1NTgtMS4xMDU1NDUgMS45MDQ2LTEuMTA1NTQ1IDIuMjYwMiAweiIgZmlsbD0iI2UyNDMyOSIvPjwvc3ZnPg==" alt="">
+                    </div>
+                </div>
+    
+                <div class="shrink-0 flex flex-col justify-between px-5 py-4 bg-white w-88 h-48 rounded-lg shadow-lg text-sm">
+                    <div class="flex">
+                        <div class="border-r-2 border-gray-300 pr-3">
+                            <img src="images\whatfix-logo-518571b748cf75851ccb108d25d08e91.svg" alt="">
+                        </div>
+                        <div class="pl-3">
+                            SaaS
+                        </div>
+                    </div>
+    
+                    <div>
+                        “What we really love about the DigitalOcean platform is the ease of use.”
+                    </div>
+    
+                    <div class="text-gray-500">
+                        Achyuth Krishna, Director of Engineering
+                    </div>
+                </div>
+    
+                <div class="shrink-0 flex bg-white w-88 h-48 rounded-lg shadow-lg">
+                    <div class="m-auto">
+                        <img src="data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjU4IiB2aWV3Qm94PSIwIDAgMTUyIDU4IiB3aWR0aD0iMTUyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiM4YzkyOWQiPjxwYXRoIGQ9Im0xMTMuODA0IDE4LjYxNmgtMi43NjNsLjAwOSAyMC43Njg5aDExLjE3OXYtMi41NjgzaC04LjQxNnoiLz48cGF0aCBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Im0xMjQuMTQ1IDI1LjI3ODdjMS41OTgtMS4zMjk3IDMuNjQ0LTIuMTI4NSA1Ljg3Ni0yLjEyODUgNC4xMTMgMCA1LjU1OCAyLjI1MTMgNS41NTggNS42MTI1djEwLjYyMjJoLTEuOTQ3bC0uNTAzLTIuMDI5M2MtLjY1OSAxLjQ5MDItMi41NjQgMi40MDk4LTQuNTUzIDIuNDA5OC0yLjk1MSAwLTQuODk4LTEuNjE3MS00Ljg5OC00LjgxOTYgMC0zLjU4MzEgMi40NDktNS4yOTU0IDcuMjg1LTUuMjk1NC41NjUgMCAxLjQ3Ni4wNjM2IDEuOTE1LjE1ODd2LTEuMDE0N2MwLTEuOTY1OS0xLjAwNS0zLjEzOTMtMy4yNjUtMy4xMzkzLTEuOTc5IDAtMy4zNi42NjYxLTQuNDkxIDEuMzMxOXptNS4zMDkgMTEuOTE4NGMxLjU3IDAgMi43MzItLjcyOTQgMy40MjItMS40NTg3di0zLjgzNjhjLS40NzEtLjA5NS0xLjM4MS0uMTU4NC0xLjk0Ni0uMTU4NC0zLjAxNSAwLTQuNDI4Ljk4My00LjQyOCAzLjA0MzkgMCAxLjM2MzYuODQ4IDIuNDEgMi45NTIgMi40MXoiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0ibTE0MS44NTYgMjQuODQ2OXMxLjMyOS0xLjY5NjYgMy43OTktMS42OTY2YzQuMDUxIDAgNi4zNDMgMy4wMTI0IDYuMzQzIDcuNTQ2NyAwIDUuNzM5My0yLjQ4IDkuMDY4NS03LjYzIDkuMDY4NS0yLjAxIDAtMy44NjMtLjMxNy01LjIxMy0uODg3N2wtLjAwOS0yMC4yNjE3aDEuNDU1IDEuMjQ2bC4wMDkgMy41NTE0em0tLjAwMyAxMi4wMDA2Yy42OTEuMzE3MSAxLjYwMS40NDM5IDIuNjM4LjQ0MzkgMi45ODMgMCA0LjY0Ny0yLjA2MTEgNC42NDctNi40MzY3IDAtMy4wNzU5LTEuMDM2LTQuOTc4My0zLjcwNS00Ljk3ODMtMS40NzYgMC0yLjYzOC41NzA3LTMuNTggMS4zNjM2di45OTg2eiIgZmlsbC1ydWxlPSJldmVub2RkIi8+PHBhdGggZD0ibTgzLjc3NiAyMC44Njc2YzIuNDQ5MyAwIDQuMDE5NC44MjQzIDUuMDU1NyAxLjY0ODhsMS4xODc1LTIuMDc3MWMtMS42MTg2LTEuNDMzMy0zLjc5NTYtMi4yMDM2LTYuMTE3Ni0yLjIwMzYtNS44NzIgMC05Ljk4NTYgMy42MTQ5LTkuOTg1NiAxMC45MDc3IDAgNy42NDE5IDQuNDM3OCAxMC42MjI0IDkuNTE0NiAxMC42MjI0IDIuNTQzNiAwIDQuNzEwMy0uNjAyNCA2LjEyMzMtMS4yMDQ5bC0uMDU3OS04LjE2NDl2LS45NjMyLTEuNjA1MmgtNy41MzYzdjIuNTY4NGg0LjgwNDNsLjA1NzkgNi4xOTg5Yy0uNjI4LjMxNzEtMS43MjcxLjU3MDctMy4yMDI4LjU3MDctNC4wODIyIDAtNi44MTQyLTIuNTkzLTYuODE0Mi04LjA1MzkgMC01LjU0ODggMi44MjYyLTguMjQ0MSA2Ljk3MTEtOC4yNDQxeiIvPjxwYXRoIGQ9Im0xMDMuMjAzIDE4LjYxNmgtMi43MDFsLjAwOSAzLjQ4Nzl2MS40MjcuODMxNiAxLjQ1MTQgOC4zMDc1LjAzMTdjMCAzLjM2MTEgMS40NDQgNS42MTI0IDUuNTU4IDUuNjEyNC41NjggMCAxLjEyNC0uMDUyMSAxLjY2NC0uMTUxMnYtMi40NDg4Yy0uMzkxLjA2MDUtLjgwOC4wOTQ5LTEuMjU2LjA5NDktMi4yNjEgMC0zLjI2Ni0xLjE3MzItMy4yNjYtMy4xMzl2LTguMzA3NWg0LjUyMnYtMi4yODNoLTQuNTIyeiIvPjxwYXRoIGQ9Im05My42NDY1IDM5LjM4NDJoMi43MDA2di0xNS44NTQzaC0yLjcwMDZ6Ii8+PHBhdGggZD0ibTkzLjY0NjUgMjEuMzQyOWgyLjcwMDZ2LTIuNzI3aC0yLjcwMDZ6Ii8+PC9nPjxwYXRoIGQ9Im02Mi4yMjggMzMuMTYwNS0zLjQ4ODQtMTAuODQwOS02LjkxMzYtMjEuNDg1OTUxYy0uMzU1Ni0xLjEwNTM3NC0xLjkwNDQtMS4xMDUzNzQtMi4yNjAyIDBsLTYuOTEzNyAyMS40ODU5NTFoLTIyLjk1NzdsLTYuOTEzOS0yMS40ODU5NTFjLS4zNTU2LTEuMTA1Mzc0LTEuOTA0NC0xLjEwNTM3NC0yLjI2MDIgMGwtNi45MTM1NiAyMS40ODU5NTEtMy40ODgyNDQgMTAuODQwOWMtLjMxODMxLjk4ODguMDMwMzggMi4wNzIuODYzMjg2IDIuNjgzMWwzMC4xOTEzMTggMjIuMTQ5NiAzMC4xOTE2LTIyLjE0OTZjLjgzMjktLjYxMTEgMS4xODE0LTEuNjk0My44NjMzLTIuNjgzMXoiIGZpbGw9IiNmYzZkMjYiLz48cGF0aCBkPSJtMzEuMTcyMyA1Ny45OTQ1IDExLjQ3ODktMzUuNjczNmgtMjIuOTU3OHoiIGZpbGw9IiNlMjQzMjkiLz48cGF0aCBkPSJtMzEuMTczOCA1Ny45OTUzLTExLjQ3ODktMzUuNjczNWgtMTYuMDg3NDh6IiBmaWxsPSIjZmM2ZDI2Ii8+PHBhdGggZD0ibTMuNjA2ODQgMjIuMzE5OC0zLjQ4ODQxNyAxMC44NDA5Yy0uMzE4MTQyLjk4ODguMDMwMzggMi4wNzIuODYzNDU0IDIuNjgyOWwzMC4xOTEzMjMgMjIuMTQ5NnoiIGZpbGw9IiNmY2EzMjYiLz48cGF0aCBkPSJtMy42MDc0MiAyMi4zMjE1aDE2LjA4NzQ4bC02LjkxMzctMjEuNDg1OTc0Yy0uMzU1OC0xLjEwNTU0Ni0xLjkwNDYtMS4xMDU1NDYtMi4yNjAyIDB6IiBmaWxsPSIjZTI0MzI5Ii8+PHBhdGggZD0ibTMxLjE3NzcgNTcuOTk0NSAxMS40Nzg5LTM1LjY3MzVoMTYuMDg3NXoiIGZpbGw9IiNmYzZkMjYiLz48cGF0aCBkPSJtNTguNzQ0MSAyMi4zMjEgMy40ODg1IDEwLjg0MDljLjMxODEuOTg4OC0uMDMwNCAyLjA3MjEtLjg2MzUgMi42ODNsLTMwLjE5MTQgMjIuMTQ5NnoiIGZpbGw9IiNmY2EzMjYiLz48cGF0aCBkPSJtNTguNzM3OSAyMi4zMjA3aC0xNi4wODc1bDYuOTEzNy0yMS40ODU5MDdjLjM1NTgtMS4xMDU1NDUgMS45MDQ2LTEuMTA1NTQ1IDIuMjYwMiAweiIgZmlsbD0iI2UyNDMyOSIvPjwvc3ZnPg=="
+                            alt="">
+                    </div>
+                </div>
+    
+            </div>
+            <!-- Fin franja 2 -->
